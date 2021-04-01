@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { ChoresListComponent } from './chores-list/chores-list.component';
 import { FavPhotosComponent } from './fav-photos/fav-photos.component';
+import { MoviePageComponent } from './movie-page/movie-page.component';
+import { FavLinksComponent } from './fav-links/fav-links.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
     ChoresListComponent,
-    FavPhotosComponent
+    FavPhotosComponent,
+    MoviePageComponent,
+    FavLinksComponent
   ],
   imports: [
     BrowserModule
