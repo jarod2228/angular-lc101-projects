@@ -1,0 +1,11 @@
+.chores ul {
+    font-family:arial;
+    font-size: 20px;
+    font-style: italic;
+}
+.chores {
+    color: green;
+}
+.chores h3 {
+    text-decoration: underline;
+}
